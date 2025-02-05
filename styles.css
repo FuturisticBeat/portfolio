@@ -23,6 +23,7 @@ header, footer {
     color: #000000;
     text-align: center;
     padding: 10px;
+    padding-left: 20px;
 }
 /* Navigation Styling */
 nav ul {
