@@ -23,7 +23,6 @@ header, footer {
     color: #000000;
     text-align: center;
     padding: 10px;
-    padding-left: 20px;
 }
 /* Navigation Styling */
 nav ul {
@@ -116,14 +115,13 @@ aside {
     align-items: center;
     margin: 20px;
     padding: 20px;
-    width: fit-content;
+    width: 50vw;
+    max-width: 600px;
 }
 .contact form {
     display: flex;
     flex-direction: column;
-    width: 50vw;
-    min-width: 336px;
-    max-width: 600px;
+    width: 100%;
 }
 .contact form label {
     margin-bottom: 10px;
@@ -156,5 +154,8 @@ footer {
 @media (max-width: 768px) {
     .about-skills-grid {
         grid-template-columns: 1fr;
+    }
+    .contact {
+        width: 100vw;
     }
 }
